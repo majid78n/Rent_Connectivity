@@ -58,4 +58,3 @@ The repository is organized into a main application and a dedicated scraper modu
 ## Usage
 
 Once the application is running, navigate to `http://localhost:8080` (or the port specified in your environment) in your web browser. Use the interface to input parameters for rental searches and view the processed results.
-```
