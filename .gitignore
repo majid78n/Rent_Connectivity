@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Generated pipeline outputs
+data/*.gpkg
+data/*.csv
+data/osmnx_cache/
+outputs/
+models/
+cache/
+
+# Logs & temp
+*.log
+*.tmp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PDFs (large binary files)
+*.pdf
+
+# Other projects in this folder
+elena-canevaro-site/
+
+# Claude Code session files
+.claude/

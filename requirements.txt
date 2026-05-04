@@ -1,0 +1,24 @@
+# RentConnect — full dependency list (pipeline + web app)
+
+# Geospatial
+h3>=3.7.6
+geopandas>=0.14.0
+shapely>=2.0.0
+folium>=0.15.0
+osmnx>=1.9.0
+
+# Data
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine learning
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Web app
+flask>=3.0
+requests>=2.32
+gunicorn>=21.0
+
+# Satellite data (optional — requires earthengine authenticate first)
+# earthengine-api>=0.1.370
